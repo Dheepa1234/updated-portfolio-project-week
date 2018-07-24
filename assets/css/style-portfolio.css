@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #F0F8FF;
+}
+
+header {
+	background:navy;
+	border-top: 4px solid #FAEBD7;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 20px;
+	border-style: solid
+}
+
+#mobile-menu-open {
+	color: #FFFFFF;
+}
+
+#mobile-menu-close {
+	color: #FFFFFF;
+}
+#about{
+	background-color: antiquewhite;
+	border-style: solid
+	
+}
+
+#articles{
+	background-color: white
+	border-style: solid
+}
+footer {
+	background:navy;
+	border-top: 4px solid #FAEBD7;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 20px;
+	border-style: solid
+}
+	footer .left {
+		float: left;
+		padding-left: 10px;
+	}
+	footer .right {
+		float: right;
+		padding-right: 10px;
+	}
+
+h2 {
+	font-size: 2em; /* Keep font size same for mobile screen */
+}
+
+h3 {
+	font-size: 2em; /* Keep font size same for mobile screen */
+}
+
+section {
+	padding: 2em 0;
+}
+
+
+/* Custom Classes and IDs */
+
+#contact {
+	background: #757575;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+#skills {
+	border-bottom: 2px solid #BDBDBD;
+}
+
+.contact-container {
+	margin-bottom: 40px;
+}
+	.contact-container a {
+		color: #FFFFFF;
+	}
+	.contact-icon {
+		font-size: 80px;
+		transition: font-size 0.5s;
+	}
+		.contact-icon:hover {
+			font-weight: bold;
+		}
+
+
+/* Media queries for medium and below screens */
+@media only screen and (max-width: 1024px) {
+	/* Add padding on mobile screens and center */
+	/* Remove background */
+	#about {
+		background: none;
+		border-bottom: 2px solid #BDBDBD;
+		padding: 0 5%;
+	}
+		#about .profile-img {
+			border: 2px solid #757575;
+			margin-bottom: 50px;
+			margin-top: 50px;
+		}
+	/* Add padding on mobile screens and center */
+	#portfolio, #skills {
+		margin: 0 5%;
+	}
+	.project-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
