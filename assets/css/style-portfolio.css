@@ -1,7 +1,7 @@
 /* General Styles */
 body {
 	font-family: "Times New Roman", Times, serif;
-	background-color: #F0F8FF;
+	background-color: #FFFAF0;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 	color: #FFFFFF;
 }
 #about{
-	background-color: antiquewhite;
+	background-color: #B0C4DE;
 	border-style: solid
 	
 }
